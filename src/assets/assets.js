@@ -148,7 +148,31 @@ export const testimonials = [
     location: "Jaffna",
     type: "Merchant",
     image: person,
-  }
+  },
+  // {
+  //   id: 3,
+  //   feedback: "With Rubaai, I can accept digital payments at my shop without any extra hardware!",
+  //   name: "Dummy",
+  //   location: "Jaffna",
+  //   type: "Merchant",
+  //   image: person,
+  // },
+  // {
+  //   id: 4,
+  //   feedback: "With Rubaai, I can accept digital payments at my shop without any extra hardware!",
+  //   name: "Dummy",
+  //   location: "Jaffna",
+  //   type: "Merchant",
+  //   image: person,
+  // },
+  // {
+  //   id: 5,
+  //   feedback: "With Rubaai, I can accept digital payments at my shop without any extra hardware!",
+  //   name: "Dummy",
+  //   location: "Jaffna",
+  //   type: "Merchant",
+  //   image: person,
+  // },
 ];
 
 export const objectives = [

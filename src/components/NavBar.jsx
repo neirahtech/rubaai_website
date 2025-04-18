@@ -11,10 +11,10 @@ const NavBar = () => {
     return (
         <div className='flex items-center justify-between text-sm md:text-md py-2 mx-2 mt-5 md:mt-8 md:mx-10 lg:mx-20 rounded-lg bg-gray-700 gap-4'>
             <div className='flex flex-row gap-3 items-center ml-3 md:ml-5'>
-                <img onClick={() => navigate('/')} className='h-8 md:h-12 cursor-pointer' src={assets.logo} alt="" />
-                <p onClick={() => navigate('/')} className='text-3xl md:text-2xl font-playfair font-bold cursor-pointer'>R U B A A I</p>
+                <img onClick={() => navigate('/')} className='h-8 md:h-10 cursor-pointer' src={assets.logo} alt="" />
+                <p onClick={() => navigate('/')} className='text-3xl md:text-lg font-playfair font-bold cursor-pointer'>R U B A A I</p>
             </div>
-            <ul className='hidden md:flex items-start gap-10 font-xl cursor-pointer'>
+            <ul className='hidden md:flex items-start gap-2 lg:gap-6 text-xs text-center cursor-pointer'>
                 <NavLink to={'/'} className={({ isActive }) =>
                     isActive
                         ? "text-black bg-white rounded-lg px-2 font-semibold py-1 hover:scale-105"
@@ -130,7 +130,7 @@ const NavBar = () => {
             </div>
 
             <div className='hidden md:flex mr-3 md:mr-5'>
-                <button className='bg-black py-3 px-6 rounded-3xl font-bold hover:scale-105 hover:bg-white hover:text-black transition-all duration-300 cursor-pointer'>Download Now</button>
+                <button className='bg-black py-2 px-4 rounded-3xl font-bold hover:scale-105 hover:bg-white hover:text-black transition-all duration-300 cursor-pointer'>Download Now</button>
             </div>
         </div>
     )
